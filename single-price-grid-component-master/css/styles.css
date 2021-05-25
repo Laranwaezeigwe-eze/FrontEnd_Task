@@ -1,0 +1,70 @@
+
+.h2{
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    font-weight: 30px;
+    color:turquoise;
+}
+.div1{
+    background-color: hsl(0, 0%, 99%);
+    padding: 20px;
+    width: 100%;
+    height: 55%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.h3{
+    color:rgb(228, 228, 27);
+    
+}
+.div2{
+    background-color: rgb(20, 162, 172);
+    padding: 20px;
+    color: white;
+    width: 50%;
+    padding-left: 10%;
+    border-bottom-left-radius: 10px;
+}
+button{
+    background-color: yellowgreen;
+    padding: 12px 62px;
+    border-radius: 7%;
+    border-style: none;
+    margin: 30px 4px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.div3{
+    background-color:rgb(34, 180, 180) ;
+    padding: 20px;
+    color: white;
+    width: 50%;
+    padding-left: 10%;
+    border-bottom-right-radius: 10px;
+}
+strong{
+    font-size: 40px;
+}
+.container{
+   
+    margin-top:5%;
+    margin-left:24%;
+    /* top: 10%;
+    bottom: 10%;
+    left: 30%;
+    right: 10%; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.flex-direction {
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    width: 106%;
+}
+

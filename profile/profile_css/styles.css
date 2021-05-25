@@ -1,0 +1,10 @@
+h1{font-size: 25pt;color: palevioletred;}
+        h2{
+            font-size: 30pt;
+            font-weight: bold;
+        }
+        p{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+        body{background-color: peachpuff;
+            border-color: plum;
+        }

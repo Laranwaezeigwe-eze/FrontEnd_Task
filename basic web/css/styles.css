@@ -1,0 +1,47 @@
+
+h1{font-weight: bold;
+        color: rgb(15, 25, 66);
+    } 
+h2{font-size: 25pt;
+        font-weight: bold;
+        }
+body{background-color: rgb(123, 99, 126);}
+
+.first{
+    font-style: italic;
+    color: rgb(16, 61, 143);
+}
+
+.new{
+    font-weight: bold;
+    color:rgb(58, 8, 8);
+    font-style: italic;
+}
+
+#latestComment{
+    font-style:italic;
+    color:yellow;
+}
+
+[title]{
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blue;
+    text-decoration: none;
+}
+
+a:link{
+text-decoration: underline;
+color: blue;
+}
+a:visited{
+    text-decoration: underline;
+    color: purple;
+}
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active{
+    background-color: yellow;
+}
