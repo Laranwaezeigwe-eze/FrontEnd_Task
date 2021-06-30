@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write('<h1>Loop</h1>');
+        var i = 1, n= 5;
+        while(i<=n){
+            console.log(i);
+            document.write(i);
+            i+=1;
+        }
+        document.write('<h2>do while</h2>');
+        var i =1;
+        var n = 5;
+        do{
+            console.log(i);
+            document.write(i);
+            i++;
+        } while(i<=n);
+        // document.write('<h2>exercise</h2>');
+
+        // var count = 0;
+        // var values;
+        // var sum = 0;
+        // while(count <= 5){
+
+        //     values = parseInt(prompt("Enter values:"));
+        //     sum += values;
+            
+        //     if(values < 0){
+        //         break;
+        //      }
+        //      console.log("this " + sum);
+        //     document.write("this " + sum);
+             
+        //      count++;
+        // }
+        // var n=5;
+        // for(let i=1; i<=n; i++){
+        //     console.log("i love javascript");
+        // }
+
+        document.write('<h3>Natural number</h3>');
+        
+        var total = 1;
+        var number = parseInt(prompt("Input natural number: "));
+        for(let count = 1; count <= number; count++){
+            total *= count;
+        }
+        console.log(total);
+        document.write(total);
+
+    
+                
+    </script>
+</body>
+</html>

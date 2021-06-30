@@ -1,0 +1,45 @@
+body{
+    background-color: seashell;
+}
+.media{
+    display: flex;
+    align-items: flex-end;
+}
+.media-image{
+    margin-right: 1em;
+}
+button{
+    background-color: #146d37;
+    padding:1%;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+button:hover{
+    background-color: red;
+}
+.hoverdiv{
+    width: 50px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+.hoverdiv:hover{
+    width: 300px;
+}
+.roll{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+}
+@keyframes move{
+    0%{background-color: blue;left: 0px;top: 0px;}
+    25%{background-color: cornflowerblue;left: 200px;top:0px;}
+    50%{background-color: cyan;left: 200px;top:200px;}
+    75%{background-color: darkmagenta;left: 0px;top: 200px;}
+    100%{background-color: red;left: 0px;top: 0px;}
+}

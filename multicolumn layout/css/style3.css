@@ -1,0 +1,46 @@
+.main-container{
+    display:flex;
+    justify-content: space-around;
+    background-color: steelblue;
+    padding-bottom: 20%;
+    flex-direction: row;
+}
+.div1{
+    background-color: seashell;
+    padding:20px;
+    margin:5px;
+}
+.div2{
+    background-color: sienna;
+    padding:20px;
+    margin: 5px;
+}
+.div3{
+    background-color: skyblue;
+    padding:20px;
+    margin:5px;
+}
+.Menu{
+    display: flex;
+    background-color: rgb(8, 90, 90);
+    padding-bottom: 15%;
+    margin-top: 5px;
+    align-items: flex-start;
+}
+.nav{
+    background-color: turquoise;
+}
+body{
+    background-color: pink;
+}
+@media screen and (max-width: 480px){
+    body{
+        background-color: tomato;
+    }
+}
+#someimage{
+    filter:grayscale(100%);
+}
+#anotherimage{
+    filter:blur(5px) hue-rotate(60deg) saturate(2);
+}

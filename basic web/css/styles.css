@@ -22,7 +22,9 @@ body{background-color: rgb(123, 99, 126);}
     font-style:italic;
     color:yellow;
 }
-
+#superstar td, #superstar tr, #superstar th {
+    border: 1px solid black;
+}
 [title]{
     cursor: help;
     padding-bottom: 3px;

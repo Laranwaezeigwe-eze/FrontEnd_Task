@@ -1,0 +1,20 @@
+nav{
+    width: 12em;
+    float: left;
+    background-color: rgb(173, 204, 201);
+}
+h1{
+    background-color: rgb(78, 78, 168);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.new{
+    color: purple;
+}
+figcaption{
+    background-color: rebeccapurple;
+    padding: 2px;
+    float: left;
+    top: 50px;
+    left: 250px;
+}

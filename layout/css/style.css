@@ -1,0 +1,46 @@
+figure{
+    border: 1pt solid #A8A8A8;
+    background-color: #EDEDDD;
+    padding: 5px;
+    width: 150px;
+    float:left;
+    top: 5px;
+    left: 800px;
+    z-index: 1;
+    margin: 20px;
+   display: auto;
+}
+figcaption{
+    background-color: #c2c265;
+    padding: 5px;
+   
+    float: left;
+    top: 150px;
+    left: 150px;
+    z-index: -1;
+}
+.first{
+    clear: left;
+}
+.overlayed{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: none;
+}
+.hide{
+    display: none;
+}
+figcaption.popup{
+    padding: 10px;
+    background: rgb(30, 168, 30);
+    position: absolute;
+    box-shadow: 0 0 15px #A9A9A9;
+    visibility: hidden;
+}
+figure.thumbnail:hover figcaption.popup{
+    position:relative;
+    top: 0px;
+    left: 160px;
+    visibility: visible;
+}

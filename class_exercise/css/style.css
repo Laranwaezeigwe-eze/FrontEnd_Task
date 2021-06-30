@@ -1,0 +1,93 @@
+.body{
+    padding-left:10%;
+    padding-top: 30px;
+}
+.topbar{
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 8%;
+}
+.div1{
+    color:rgb(238, 53, 115);
+    margin-right: 40%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav{
+    float:right;
+    display: inline;
+    
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin:20px;
+    font-size: 20px;
+}
+.navbutton{
+    background-color: rgb(238, 53, 115);
+    padding: 10px;
+    margin: 5px;
+    color: papayawhip;
+    width: 150px;
+    font-size:20px;
+    border-style: none;
+}
+.div2{
+    display:flex;
+    padding-bottom: 10%;
+}
+.designerstory{
+    font-size: 22px;
+    float:left;
+}
+.para{
+    font-size: 25px;
+}
+.designbutton{
+    background-color: rgb(238, 53, 115);
+    width:200px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:10px;
+    border-style: none;
+    border-radius: 5%;
+    font-size: 20px;
+    color:papayawhip;
+}
+.fig{
+padding: 7px;
+}
+.base3{
+    font-size: 3em;
+    font-weight: 10px;
+}
+.pbase{
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 15%;
+}
+.work{
+    font-size: 2em;
+    font-weight:bolder;
+}
+.ptag{
+    font-size: 1.2em;
+}
+.link{
+    display: flex;
+
+    }
+.job_descrp{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 2px;
+    margin-right: 2px;
+    grid-column-end: auto; 
+}
+
+
+
+    
+
